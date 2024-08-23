@@ -64,3 +64,75 @@
   right: 15px;
   cursor: pointer;
 }
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .container h1 {
+    font-size: 28px;
+  }
+
+  .container h1 img {
+    width: 50px;
+  }
+
+  .container button {
+    font-size: 14px;
+    padding: 12px 20px;
+  }
+
+  .container button img {
+    width: 20px;
+  }
+
+  .input-box {
+    max-width: 100%;
+    padding: 15px;
+    min-height: 130px;
+  }
+
+  .input-box img {
+    width: 20px;
+    bottom: 10px;
+    right: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .container h1 {
+    font-size: 24px;
+  }
+
+  .container h1 img {
+    width: 40px;
+  }
+
+  .container button {
+    font-size: 12px;
+    padding: 10px 15px;
+  }
+
+  .container button img {
+    width: 18px;
+  }
+
+  .input-box {
+    padding: 10px;
+    min-height: 120px;
+  }
+
+  .input-box img {
+    width: 18px;
+    bottom: 8px;
+    right: 8px;
+  }
+}
